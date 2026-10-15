@@ -6,7 +6,7 @@ app = Flask(__name__)
 @app.get("/")
 def home():
     return jsonify(
-        message="Docker ci/cd day 14 assignment"
+        message="Docker ci/cd day 14 assignment in progress",
         environment=os.getenv("APP_ENV","dev")
     )
 
